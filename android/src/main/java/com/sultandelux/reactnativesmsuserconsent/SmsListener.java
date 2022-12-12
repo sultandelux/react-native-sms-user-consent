@@ -1,4 +1,4 @@
-package com.akvelon.reactnativesmsuserconsent;
+package com.sultandelux.reactnativesmsuserconsent;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -7,7 +7,7 @@ import com.facebook.react.bridge.BaseActivityEventListener;
 import com.google.android.gms.auth.api.phone.SmsRetriever;
 
 import static android.app.Activity.RESULT_OK;
-import static com.akvelon.reactnativesmsuserconsent.SmsBroadcastReceiver.SMS_CONSENT_REQUEST;
+import static com.sultandelux.reactnativesmsuserconsent.SmsBroadcastReceiver.SMS_CONSENT_REQUEST;
 
 public class SmsListener extends BaseActivityEventListener {
     private ReactNativeSmsUserConsentModule moduleInstance;

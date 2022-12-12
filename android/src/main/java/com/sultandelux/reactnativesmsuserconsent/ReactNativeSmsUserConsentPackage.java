@@ -1,4 +1,4 @@
-package com.akvelon.reactnativesmsuserconsent;
+package com.sultandelux.reactnativesmsuserconsent;
 
 import java.util.Arrays;
 import java.util.Collections;

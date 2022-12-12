@@ -1,4 +1,4 @@
-package com.akvelon.reactnativesmsuserconsent;
+package com.sultandelux.reactnativesmsuserconsent;
 
 import android.app.Activity;
 import android.content.IntentFilter;

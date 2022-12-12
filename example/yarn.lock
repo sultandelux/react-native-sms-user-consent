@@ -697,7 +697,7 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
-"@eabdullazyanov/react-native-sms-user-consent@file:..":
+"@sultandelux/react-native-sms-user-consent@file:..":
   version "1.0.1"
 
 "@eslint/eslintrc@^0.3.0":

@@ -10,16 +10,16 @@ If you want auto-filling on iOS, `textContentType="oneTimeCode"` for `TextInput`
 
 ## Getting started
 
-Install [the package](https://www.npmjs.com/package/@eabdullazyanov/react-native-sms-user-consent):
+Install [the package](https://www.npmjs.com/package/sultandelux/react-native-sms-user-consent):
 
 ```
-yarn add @eabdullazyanov/react-native-sms-user-consent
+yarn add sultandelux/react-native-sms-user-consent
 ```
 
 or
 
 ```
-npm install @eabdullazyanov/react-native-sms-user-consent
+npm install sultandelux/react-native-sms-user-consent
 ```
 
 ## Basic usage
@@ -28,7 +28,7 @@ npm install @eabdullazyanov/react-native-sms-user-consent
 import React, { useEffect, useState } from 'react';
 import { TextInput } from 'react-native';
 
-import { useSmsUserConsent } from '@eabdullazyanov/react-native-sms-user-consent';
+import { useSmsUserConsent } from 'sultandelux/react-native-sms-user-consent';
 
 const Example = () => {
   const [code, setCode] = useState();

@@ -1,4 +1,4 @@
-package com.akvelon.reactnativesmsuserconsent;
+package com.sultandelux.reactnativesmsuserconsent;
 
 public enum Errors {
     NULL_ACTIVITY,
