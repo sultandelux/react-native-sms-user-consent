@@ -117,6 +117,15 @@ public class ReactNativeSmsUserConsentModule extends ReactContextBaseJavaModule 
             .getJSModule(DeviceEventManagerModule.RCTDeviceEventEmitter.class)
             .emit(AKV_SMS_RETRIEVE_ERROR, params);
     }
+     
+    // Required for rn built in EventEmitter Calls.
+    @ReactMethod
+    public void addListener(String eventName) {
+    }
+
+    @ReactMethod
+    public void removeListeners(Integer count) {
+    }
 
     @ReactMethod
     public void startNativeSmsListener(Promise promise) {
